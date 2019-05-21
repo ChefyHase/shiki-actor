@@ -5,7 +5,7 @@ require('dotenv').config();
 const Script = require('../lib/script');
 const profileFile = './src/test/profile.csv';
 const scriptFile = './src/test/script.csv';
-const script = new Script(profileFile, scriptFile, process.env.API_KEY);
+const script = new Script(profileFile, scriptFile, process.env.VOICETEXT_API_KEY);
 
 test('init', async () => {
   await script.init();

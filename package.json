@@ -1,17 +1,21 @@
 {
-  "name": "shikiActor",
-  "version": "1.0.0",
+  "name": "shiki-actor",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --notify"
   },
   "bin": {
-    "shikiActor": "./bin/shikiActor.js"
+    "shiki-actor": "./bin/shikiActor.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "chefyhase <chefyhase@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChefyHase/shiki-actor.git"
+  },
   "dependencies": {
     "commander": "^2.20.0",
     "csvtojson": "^2.0.8",
